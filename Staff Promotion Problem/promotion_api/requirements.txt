@@ -3,4 +3,3 @@ gunicorn
 sklearn
 scikit-learn
 sklearn
-pickle
