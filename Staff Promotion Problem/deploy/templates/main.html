@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet"/>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="navbar">
+      <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="https://github.com/geewynn/Machine-Learning-Project/tree/master/Staff%20Promotion%20Problem"><i class="fa fa-fw fa-github"></i> Github</a>
+      <a href="mailto:ekainugodwin@gmail.com"><i class="fa fa-fw fa-envelope"></i> Mail Me</a>
+      <a href="https://www.linkedin.com/in/godwin-ekainu-34a50b127/"><i class="fa fa-fw fa-globe"></i> Linkedin</a>
+    </div>
+
+
+<div class="container">
+    <div class="mh">
+        <h1> Employee Promotion Model</h1>
+        <p>Built with Machine Learning, This model predicts if an employee is Eligible for Promotion or Not.</p>
+    </div>
+    <form action="/result" method="POST">
+
+    <div class="row">
+        <div class="col-25">
+            <label for="targets_met">Did You Meet Your Work Target</label>
+        </div>
+        <div class="col-75">
+            <select class="form-control custom-select-sm" name = 'targets_met'>
+                <option value="1" class="btn">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="no_of_prev_employers">Number of Previous Employers</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="previous_employer" name="previous_employer" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="channel_of_recruitment">Channel of Recruitment</label>
+        </div>
+        <div class="col-75">
+            <select class="custom-select custom-select-sm form-control" name = 'channel_of_recruitment'>
+                <option value="1">Direct Internal process</option>
+                <option value="2">Agency and others</option>
+                <option value="3">Referral and Special candidates</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-25">
+            <label for="Training score average">Training Score Average</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="train_score_average" name="train_score_average" required>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-25">
+            <label for="last_performance_score">Last Performance Score</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="performance_score" name="performance_score" required>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="is_female">Gender</label>
+        </div>
+        <div class="col-75">
+            <select class=" custom-select-sm form-control" name = 'is_female'>
+                <option value="1">Female</option>
+                <option value="0">Male</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="previous_award">Have You Received An Award At Work</label>
+        </div>
+        <div class="col-75">
+            <select class="form-control custom-select-sm" name = 'previous_award'>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+
+</div>
+</body>
+</html>
