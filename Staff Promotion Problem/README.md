@@ -1,6 +1,8 @@
 Project: Staff Promotion Prediction
 The dataset can be gotten from https://www.kaggle.com/c/intercampusai2019.
 
+You can test the fully functional web app on https://staff-promotion.herokuapp.com/
+
 
 **Business Objectve**
 
@@ -42,4 +44,4 @@ I built a total of 5 models(Logistic Regression, KNearestNeighbor, SVM, RandomFo
 - XGboost performed better than all the models when compared on our evaluation metric.
 - It gave me a F! score of 92% and had the lowest number of misclassification.
 
-XGboost was what was deployed and you can test the fully functional webapp on https://staff-promotion.herokuapp.com/
+XGboost was what was deployed. You can test the fully functional webapp on https://staff-promotion.herokuapp.com/
