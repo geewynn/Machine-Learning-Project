@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee93e06-e19c-4c3e-a9e0-56dd478cf875" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/congrats.html" beforeDir="false" afterPath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/congrats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/sorry.html" beforeDir="false" afterPath="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/sorry.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Machine_Learning_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1577538941350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Staff Promotion Problem/promotion_api" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_Project$app.coverage" NAME="app Coverage Results" MODIFIED="1577539410086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Staff Promotion Problem/promotion_api" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -25,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -37,8 +38,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/sorry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/congrats.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -51,9 +70,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html" />
         <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/app.py" />
         <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/requirements.txt" />
+        <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html" />
+        <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/sorry.html" />
+        <option value="$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/congrats.html" />
       </list>
     </option>
   </component>
@@ -163,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1577491591862</updated>
       <workItem from="1577491601796" duration="1829000" />
-      <workItem from="1577538599206" duration="458000" />
+      <workItem from="1577538599206" duration="776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2287000" />
+    <option name="totallyTimeSpent" value="2605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -201,13 +222,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -219,6 +233,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/sorry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Staff Promotion Problem/promotion_api/templates/congrats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
