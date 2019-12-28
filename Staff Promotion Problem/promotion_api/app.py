@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = pickle.load(open('model.sav', 'rb'))
+model = pickle.load(open('xgb_model.sav', 'rb'))
 
 
 def ValuePredictor(to_predict_list):

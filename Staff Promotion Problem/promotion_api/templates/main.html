@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home</title>
     <link href="/static/css/style.css" type="text/css" rel="stylesheet"/>
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
             <label for="no_of_prev_employers">Number of Previous Employers</label>
         </div>
         <div class="col-75">
-            <input type="text" id="previous_employer" name="previous_employer" required>
+            <input type="number" id="previous_employer" name="previous_employer" min="0" max="50"  placeholder="0-50" required>
         </div>
     </div>
 
@@ -65,7 +65,7 @@
             <label for="Training score average">Training Score Average</label>
         </div>
         <div class="col-75">
-        <input type="text" id="train_score_average" name="train_score_average" required>
+        <input type="number" id="train_score_average" name="train_score_average" min="0" max="100" placeholder="0-100" required>
         </div>
     </div>
 
@@ -75,7 +75,7 @@
             <label for="last_performance_score">Last Performance Score</label>
         </div>
         <div class="col-75">
-            <input type="text" id="performance_score" name="performance_score" required>
+            <input type="number" id="performance_score" name="performance_score" min="0" max="100" placeholder="0-100" required>
         </div>
     </div>
 
