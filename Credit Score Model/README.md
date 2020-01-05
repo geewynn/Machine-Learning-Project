@@ -1,5 +1,6 @@
 # Credit Score Model.
 - This repo contains all the files used to build a credit score model.
+- Try out the model https://credit-score-model.herokuapp.com/
 ## Data Analysis
 1. #### Loan Distribution.
 - Firstly I analysed the distrbution for the loan amount, funded amount and funded amount investor.
