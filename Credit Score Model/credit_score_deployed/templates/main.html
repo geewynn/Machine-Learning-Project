@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="/static/css/style.css" type="text/css" rel="stylesheet"/>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="navbar">
+      <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="https://github.com/geewynn/Machine-Learning-Project/tree/master/Credit%20Score%20Model" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+      <a href="mailto:ekainugodwin@gmail.com"><i class="fa fa-fw fa-envelope" target="_blank"></i> Mail Me</a>
+      <a href="https://www.linkedin.com/in/godwin-ekainu-34a50b127/" target="_blank"><i class="fa fa-fw fa-globe"></i> Linkedin</a>
+    </div>
+
+
+<div class="container">
+    <div class="mh">
+        <h1> Employee Promotion Model</h1>
+        <p>Built with Machine Learning, This model predicts if an employee is Eligible for Promotion or Not.</p>
+    </div>
+{#     <form action="{{ url_for('predict')}}"method="post">#}
+     <form action="/result" method="POST">
+
+        <div class="row">
+            <div class="col-25">
+                <label for="loan_amount">Loan Amount $</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="loan_amount" name="loan amount" min="0" max="1000000"  placeholder="Enter loan amount" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="interest_rate">Interest Rate</label>
+            </div>
+            <div class="col-75">
+            <input type="number" id="interest_rate" name="interest rate" min="0" max="10000000" placeholder="Proposed interest rate" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="employment_length">Employment Length</label>
+            </div>
+            <div class="col-75">
+                <select class="custom-select custom-select-sm form-control" name = 'employment_length'>
+                    <option value="1">< 1 year </option>
+                    <option value="2"> 1 year </option>
+                    <option value="3">2 years </option>
+                    <option value="4"> 3 year </option>
+                    <option value="5"> 4 year </option>
+                    <option value="6">5 years </option>
+                    <option value="7"> 6 year </option>
+                    <option value="8"> 7 year </option>
+                    <option value="9">8 years </option>
+                    <option value="10"> 9 year </option>
+                    <option value="11"> 10+ year </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="home_ownership">Home ownership</label>
+            </div>
+            <div class="col-75">
+                <select class=" custom-select-sm form-control" name = 'home_ownership'>
+                    <option value="1">Mortgage</option>
+                    <option value="2">Rent</option>
+                    <option value="3">Own</option>
+                    <option value="4">Any</option>
+                    <option value="5">Others</option>
+                    <option value="6">None</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="annual_income">Annual Income $</label>
+            </div>
+            <div class="col-75">
+                <input type="number" id="annual_income" name="annual_income" min="0" max="10000000" placeholder="annual income" required>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-25">
+                <label for="loan term">Loan Term</label>
+            </div>
+            <div class="col-75">
+                <select class="form-control custom-select-sm" name = 'loan_term'>
+                    <option value="1">36 months</option>
+                    <option value="0">60 months</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="purpose">Loan Purpose</label>
+            </div>
+            <div class="col-75">
+                <select class="form-control custom-select-sm" name = 'purpose'>
+                    <option value="0"> Debt Consolidaton </option>
+                    <option value="1"> Credit Card Refinancing </option>
+                    <option value="2">Home Improvements </option>
+                    <option value="3"> Other </option>
+                    <option value="4"> Major Purchases </option>
+                    <option value="5"> Medical </option>
+                    <option value="6"> Small Business </option>
+                    <option value="7"> Car </option>
+                    <option value="8"> Vacation </option>
+                    <option value="9"> Moving </option>
+                    <option value="10"> House </option>
+                    <option value="11"> Renewable Energy </option>
+                    <option value="12"> Wedding </option>
+                    <option value="13"> Education </option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-25">
+                <label for="application_type">Application Type</label>
+            </div>
+            <div class="col-75">
+                <select class=" custom-select-sm form-control" name='application_type'>
+                    <option value="0">Individual</option>
+                    <option value="1">Joint</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+
+</div>
+</body>
+</html>
