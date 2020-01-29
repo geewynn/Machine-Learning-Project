@@ -179,4 +179,4 @@
     
  - From the abpve table the columns with True are the selected columns while the rest where dropped.
  
- - For detailed information. Chacke out the complete notebook (https://github.com/geewynn/Machine-Learning-Project/blob/master/New%20York%20Trip/Yellow_Ride_Model.ipynb)
+ - For detailed information. Chacke out the complete notebook [here](https://github.com/geewynn/Machine-Learning-Project/blob/master/New%20York%20Trip/Yellow_Ride_Model.ipynb)
