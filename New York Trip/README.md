@@ -37,4 +37,34 @@
 - After the model was instatiated and fit on the training set and after the prediction on the test set. It produced,
   - The model explained 99.8% of the variance in the train set and 99.8% of the variance in the test set.
   - A RMSE score of 9.81 which is a bit decent on the first try
--
+  - Lasso regularization with an alpha = 0.4 compressed all the features to zero.
+  
+  ##### Fetaure Selection for Modellling with LassoCV
+  - The LassoCv model selection package was used to carry out feature selection for modelling.
+  - The model selected 10 features out of the original 16. 
+  - It compressed the non-selected feature coeficient to 0.
+  
+    | Columns  | LassoCV coeficient |
+    | ------------- | ------------- |
+    | VendorID  | -0.0013343364494424247  |
+    | payment_type   | -0.177  |
+    | fare_amount   | -10.079  |
+    | extras   |  -0.4534  |
+    | mta_tax  |  -0.0469  |
+    | tolls_amount  | -1.971  |
+    | improvement_surchage   |  -0.0216  |
+    | total_amount  | 13.387  |
+    | dropoff_time_period  |  5.910   |
+    | pickup_time_period  |  0.0  |
+    | passenger_count  |-0.0  |
+    | trip_distance | 0.0   |
+    | RatecodeId  | -0.0  |
+    | store_and_fwd_flag  | 0.0   |
+    | PULocation   |  0.0   |
+    | DOLocation   | 0.0   |
+    
+ - The top 10 are the selected features for modelling in our linear Regression model, while the bottom six are the compressed features that where rejected.
+    
+ - From the LassoCV table:
+      - total_amount had the highest coeficient which also means it plays a big role in predicting the tip amount.
+      - Drop_off time follows with the second largest coeficient.
