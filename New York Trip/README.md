@@ -36,8 +36,12 @@
 #### Linear Regression
 - After the model was instatiated and fit on the training set and after the prediction on the test set. It produced,
   - The model explained 99.8% of the variance in the train set and 99.8% of the variance in the test set.
-  - A RMSE score of 9.81 which is a bit decent on the first try
+  - A RMSE score of 9.81 which is a bit decent on the first try.
   - Lasso regularization with an alpha = 0.4 compressed all the features to zero.
+  
+  ##### Residual Plot for Linear Regression Model.
+    ![residual](https://github.com/geewynn/Machine-Learning-Project/blob/master/New%20York%20Trip/images/residual.png)
+    - The plot shows a clear pattern with the line being stationary at zero. This can mean that our data is not a random data set and also not linear and might need a non-linear model.
   
   ##### Fetaure Selection for Modellling with LassoCV
   - The LassoCv model selection package was used to carry out feature selection for modelling.
