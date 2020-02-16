@@ -1,4 +1,4 @@
-Project: Staff Promotion Prediction
+# Staff Promotion Prediction
 The dataset can be gotten from https://www.kaggle.com/c/intercampusai2019.
 
 You can test the fully functional web app on https://staff-promotion.herokuapp.com/
