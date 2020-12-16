@@ -1,0 +1,9 @@
+user: 'userid'
+item: 'itemid'
+rating: 'ratings'
+
+
+# input indexes
+user_index: 1
+item_index: 2
+rating_index: 3
